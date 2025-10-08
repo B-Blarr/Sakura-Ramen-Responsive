@@ -139,6 +139,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0 24px;
 }
 
 .menu-container {
@@ -198,12 +199,12 @@ h3 {
 
 #h2-find-us-at {
   padding-bottom: 8px;
-  padding-top: 120px;
 }
 
 .address {
   font-size: 24px;
   display: flex;
+  align-items: center;
   padding-bottom: 64px;
 }
 
@@ -266,6 +267,7 @@ footer {
     padding-top: 96px;
     padding-bottom: 48px;
     font-size: 64px;
+    text-align: center;
   }
 
   .order {
@@ -293,8 +295,40 @@ footer {
   }
   .menu-container-reverse {
     padding: 32px 0px;
+    gap: 24px;
   }
   .menu-container {
     gap: 24px;
+  }
+  #menu-container-shio-ramen {
+    gap: 24px;
+  }
+
+  .our-menu {
+    padding: 0 24px;
+  }
+
+  .our-menu img {
+    width: 352px;
+    height: auto;
+  }
+
+  .table {
+    max-width: 100%;
+  }
+
+  table td:first-child {
+    padding-right: 120px;
+  }
+  #menu-container-shio-ramen {
+    padding-bottom: 96px;
+  }
+  .address {
+    font-size: 20px;
+    padding-bottom: 48px;
+  }
+  footer {
+    padding: 0 24px;
+    margin: 0;
   }
 }
